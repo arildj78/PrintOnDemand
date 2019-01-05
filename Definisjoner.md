@@ -1,4 +1,6 @@
 # Definsjoner
+| Uttrykk | Definisjon |
+|------|------|
 | Utskrift	| Presentasjon av digitale data på papir eller annet fysisk utskriftsmedia ved hjelp av skriver. |
 | Trykk	| Presentasjon av grafikk på papir eller annet fysisk media ved hjelp av en trykkpresse. |
 | Skriver	| En kontormaskin som kan tilkobles en PC eller annen datamaskin med det formål å skrive ut et dokument, et bilde eller annet som nærmere defineres av brukeren, på et papirark eller annet utskriftsmedium. |
@@ -16,4 +18,3 @@
 | OBA	| Optical Brightening Agent – stoff som absorberer ultrafiolett lys og sender det ut igjen i den blå enden av spekteret. Gjør at papir ser hvitere og lysere ut, men forårsaker også et skifte mot blått når papiret blir utsatt for lys med UV sammenlignet med når man ser det i lys uten UV. |
 | D50	| CIE Standard Illuminant – Dagslys 5000 Kelvin definert i ISO 3664:2009 |
 | ICC-profil	| International Color Consortium profil. Fil med omregnings- og kalibreringsinformasjon for en spesifikk skriver/blekk/papirkombinasjon. Til en viss grad også følsom for innstillinger gjort i utskriftsdriveren. |
-                           
