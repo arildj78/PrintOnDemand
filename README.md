@@ -8,8 +8,7 @@ A javascript for batch conversion of PDFs in PhotoShop. The script processes the
 
 ## Tools
 ### ColorConversion.xlsm
-Colorspace Conversion
-Delta E 2000 calculation
+Excel spreadsheet with macros for converting colors between LAB, Adobe RGB (1998) and sRGB color values. There are also a sheet for calculating the difference between two different LAB colors.
 
 
 # Other resources
