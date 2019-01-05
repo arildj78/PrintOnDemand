@@ -1,6 +1,6 @@
 # Definsjoner
-| Uttrykk | Definisjon |
-|------|------|
+| Uttrykk     | Definisjon     |
+|-------------|----------------|
 | Utskrift	| Presentasjon av digitale data på papir eller annet fysisk utskriftsmedia ved hjelp av skriver. |
 | Trykk	| Presentasjon av grafikk på papir eller annet fysisk media ved hjelp av en trykkpresse. |
 | Skriver	| En kontormaskin som kan tilkobles en PC eller annen datamaskin med det formål å skrive ut et dokument, et bilde eller annet som nærmere defineres av brukeren, på et papirark eller annet utskriftsmedium. |
