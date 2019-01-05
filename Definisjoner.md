@@ -8,7 +8,7 @@
 | [Plotter][3]           | Også kalt digital plotter, grafskriver, kurvetegner og diagramtegner, er en skriver som skriver ut vektorgrafikk fra for eksempel en datamaskin. Dette er relativt gammel teknologi og er i de fleste sammenhenger erstattet av storformatskrivere. |
 | [CMYK][4]              | Uttales «smykk» og er en subtraktiv fargemodell der blekk med fargene turkis, magenta, gul og sort (Cyan, Magenta, Yellow, Key) legges på et hvitt utskriftsmedie for å ta bort deler av det reflekterte lyset. Hver farge kan dekke fra 0 til 100%. |
 | [RGB][5]               | En additiv fargemodell der utgangspunktet er fravær av lys, altså sort. Lys i fargene Rød, Grønn og Blå legges til i forskjellig intensitet for å blandes sammen til ønsket farge. Intensiteten på hver farge oppgis ofte fra 0 til 255. |
-| [LAB][6]               | Forkortet skrivemåte for CIEL*a*b* 1976 fargemodell. Modellen inkluderer alle tenkelige (samt noen imaginære farger). L angir lyshet mens a og b indikerer fargene grønn til rød og blå til gul. L angis som regel fra 0 til 100, mens a og b vanligvis er mellom -128 og +127. Modellens viktigste egenskaper er at den er enhetsuavhengig og inkluderer alle fargene i både RGB og CMYK. Dette gjør den godt egnet til å definere farger og til å konvertere mellom forskjellige fargerom.  |
+| [LAB][6]               | Forkortet skrivemåte for CIEL*a*b* 1976 fargemodell. Modellen inkluderer alle tenkelige (samt noen [imaginære][15] farger). L angir lyshet mens a og b indikerer fargene grønn til rød og blå til gul. L angis som regel fra 0 til 100, mens a og b vanligvis er mellom -128 og +127. Modellens viktigste egenskaper er at den er enhetsuavhengig og inkluderer alle fargene i både RGB og CMYK. Dette gjør den godt egnet til å definere farger og til å konvertere mellom forskjellige fargerom.  |
 | RGB-skriver	           | En skriver som tar inndata som verdier i RGB fargemodell. Dette er uavhengig av fargen på blekkpatronene som gjerne kan være turkis, magenta, gul og sort. |
 | [Fargemodell][7]       | En matematisk modell for beskrivelse av farger. Som regel tre eller fire variabler, for eksempel RGB, CMYK eller LAB (eng: colormodel) |
 | [Fargerom][8]          | En entydig definisjon av en fargemodell der grunnfargene og alle kombinasjoner av disse er definert som enhetsuavhengige målbare verdier (eng: colorspace) |
@@ -33,3 +33,4 @@
 [12]: https://en.wikipedia.org/wiki/Optical_brightener
 [13]: https://en.wikipedia.org/wiki/Standard_illuminant#Illuminant_series_D
 [14]: https://en.wikipedia.org/wiki/ICC_profile
+[15]: https://en.wikipedia.org/wiki/Impossible_color
