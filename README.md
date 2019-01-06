@@ -4,7 +4,8 @@ A collection of checklists, tools and resources related to the creation and prin
 # Contents
 ## Scripts
 ### PsConvertPdf2Tiff.js
-A javascript for batch conversion of PDFs in PhotoShop. The script processes the first page of a PDF and assigns the Adobe RGB (1998) color profile before saving the file as tif. Do not use this script if the PDF is already tagged as Adobe RGB (1998). Photoshop treats all PDF imports as a convert to sRGB and the RGB values **will** be altered.
+A javascript for batch conversion of PDFs in PhotoShop. The script processes the first page of a PDF and assigns the Adobe RGB (1998) color profile before saving the file as tif.
+<br/>**_CAUTION:_ Do not use this script if the PDF is already tagged as Adobe RGB (1998). Photoshop treats all PDF imports as a convert to sRGB and the RGB values will be altered.**
 
 ## Tools
 ### ColorConversion.xlsm
