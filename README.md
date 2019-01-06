@@ -26,7 +26,11 @@ To be able to compare the performance of different settings during printing it i
 ### Testresults
 M517 2017.02 printed on PolyPropylene Banner 200µm with a HP DesignJet Z6810 resulted in the following ∆E when compared to the *M517 2017.02* standard. The print job was submitted from the web-interface with the preset named *Flykart*.
 
-sRGB.tif
+The red diagonal through four of the colors indicate that this color is out of gamut for PP-200 paper on the Z6810 with the settings I have been using.
+
+All measurements have been done with the [i1Pro 2 spectrophotometer][i1Pro2] from [x-rite][x-rite].
+
+Test_Stripmap_sRGB.tif
 ![sRGB.tif measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_M517_2017.02-sRGB_print.png)
 For this print the Average ∆E was 3.0 for the six colors in gamut.
 
@@ -36,6 +40,7 @@ For this print the Average ∆E was 1.5 for the six colors in gamut.
 
 Test_Stripmap_sRGB.tif compared to Test_Stripmap_AdobeRGB.tif
 ![AdobeRGB.tif compared to AdobeRGB measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_AdobeRGB-sRGB_print.png)
+White and black are pretty similiar while green, magenta, cyan and brown are noticable different. Greatest ∆E between the to prints is 7.9
 
 
 # Other resources
@@ -44,3 +49,9 @@ Test_Stripmap_sRGB.tif compared to Test_Stripmap_AdobeRGB.tif
 
 ### Rendering Intent & BlackPoint
 [![Rendering Intent & BlackPoint](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/screenshotBlackPoint.png)](https://youtu.be/ixLrXsTvHyI "Rendering Intent & BlackPoint")
+
+
+
+
+[i1Pro2]: https://www.xrite.com/categories/calibration-profiling/i1publish-pro-2
+[x-rite]: https://www.xrite.com
