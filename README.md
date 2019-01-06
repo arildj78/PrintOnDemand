@@ -1,6 +1,13 @@
 # Print On Demand
 A collection of checklists, tools and resources related to the creation and printing of maps.
 
+# Printing
+## From  PDF
+The HP DesignJet Z6810 with firmware PX8_04_00_06.2 does not process the ICC profile embedded in the PDF. All color management options are set during submission of the print job.
+
+## From TIFF
+The *HP DesignJet Z6810* with firmware *PX8_04_00_06.2* ignores the color profile specified during job submission from web interface. Instead, the profile stored in the tif-file is used. This is only tested with *Color management* set to **ICC color management**.
+
 # Contents
 ## Scripts
 ### PsConvertPdf2Tiff.js
