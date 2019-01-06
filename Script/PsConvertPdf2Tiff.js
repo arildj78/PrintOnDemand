@@ -7,6 +7,13 @@
 //  TIFF file with ZIP compression. No other images should be
 //  open i PhotoShop while running this script.
 //
+//
+//                      *** CAUTION ***
+//  DO NOT USE THIS SCRIPT IF PDF IS ALREADY TAGGED AS Adobe RGB !
+//  Photoshop treats all PDF imports as a conversion to sRGB. The
+//  RGB values from the PDF will be altered during the import.
+//
+//
 //  Version 1.0 of the script is written by Arild M Johannessen,
 //  4 JAN 2019 for the conversion of PDF maps prior to printing.
 //
@@ -32,7 +39,7 @@ pdfOpenOptions.suppressWarnings = false         //Suppress any warnings that mig
 pdfOpenOptions.usePageNumber = true             //Page property is treated as page (as opposed to an image number)
 pdfOpenOptions.page = 1;                        //Set the pagenumber to be opened
 
-var executeScript = true; //Holds the result of prerequisite checks 
+var executeScript = true; //Holds the result of prerequisite checks
 
 
 // Run prerequisite checks
@@ -70,7 +77,7 @@ if (executeScript) {
     //Cycle through all files from the selection made in the file selection dialog
     for (var a = 0; a < fileList.length; a++) {
         if (fileList[a] instanceof File) { //Check that fileList[a] is a file object (and not a folder)
-            
+
             var doc = open(fileList[a], pdfOpenOptions);  //Open the PDF
 
             while (app.documents.length > 0) {    //Work while the number of open documents are >0
@@ -89,7 +96,7 @@ if (executeScript) {
 
 
 
- 
+
 //--------------------------------------------------//
 //   method to save the tiff with ZIP compression   //
 //--------------------------------------------------//
@@ -120,7 +127,7 @@ function SaveTiff_lzw(saveFile) {
     tiffSaveOptions.layers = false;                          //Flatten the image before saving
 
     //Save the file. (Parameters: Fileobject, SaveOptionsObject, asCopy, ExtensionCase)
-    activeDocument.saveAs(saveFile, tiffSaveOptions, true, Extension.LOWERCASE); 
+    activeDocument.saveAs(saveFile, tiffSaveOptions, true, Extension.LOWERCASE);
 }
 
 //method to save the tiff with JPG compression - Included for future testing
