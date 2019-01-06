@@ -30,15 +30,15 @@ The red diagonal through four of the colors indicate that this color is out of g
 
 All measurements have been done with the [i1Pro 2 spectrophotometer][i1Pro2] from [x-rite][x-rite].
 
-Test_Stripmap_sRGB.tif
+#### Test_Stripmap_sRGB.tif
 ![sRGB.tif measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_M517_2017.02-sRGB_print.png)
 For this print the Average ∆E was 3.0 for the six colors in gamut.
 
-Test_Stripmap_AdobeRGB.tif
+#### Test_Stripmap_AdobeRGB.tif
 ![AdobeRGB.tif measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_M517_2017.02-AdobeRGB_print.png)
 For this print the Average ∆E was 1.5 for the six colors in gamut.
 
-Test_Stripmap_sRGB.tif compared to Test_Stripmap_AdobeRGB.tif
+#### Test_Stripmap_sRGB.tif compared to Test_Stripmap_AdobeRGB.tif
 ![AdobeRGB.tif compared to AdobeRGB measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_AdobeRGB-sRGB_print.png)
 White and black are pretty similiar while green, magenta, cyan and brown are noticable different. Greatest ∆E between the to prints is 7.9
 
