@@ -24,7 +24,7 @@ To be able to compare the performance of different settings during printing it i
 ![Colorsample M517 2017.02](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/M517%202017.02.png)
 
 ### Testresults
-M517 2017.02 printed on PolyPropylene Banner 200µm with a HP DesignJet Z6810 resulted in the following ∆E when compared to the _M517 2017.02_ standard. The print job was submitted from the web-interface with the preset named _Flykart_.
+M517 2017.02 printed on PolyPropylene Banner 200µm with a HP DesignJet Z6810 resulted in the following ∆E when compared to the *M517 2017.02* standard. The print job was submitted from the web-interface with the preset named *Flykart*.
 
 sRGB.tif
 ![sRGB.tif measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_M517_2017.02-sRGB_print.png)
@@ -35,8 +35,8 @@ AdobeRGB(1998).tif
 sRGB.tif compared to AdobeRGB(1998).tif
 ![AdobeRGB.tif compared to AdobeRGB measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_AdobeRGB-sRGB_print.png)
 
-# Other resources
 
+# Other resources
 ### Defining gamut and color
 [![Defining gamut and color space](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/screenshotGamut.png)](https://youtu.be/jVkjaUCkMps "Defining gamut and color space")
 
