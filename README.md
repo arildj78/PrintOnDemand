@@ -16,6 +16,18 @@ Excel spreadsheet with macros for converting colors between LAB, Adobe RGB (1998
 To be able to compare the performance of different settings during printing it is beneficial to always use the same set of colors for testing. The current standard is given below. The colors are chosen from frequently used RGB values in the map *M517 air* interpreted as Adobe RGB (1998).
 ![Colorsample M517 2017.02](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/M517%202017.02.png)
 
+### Testresults
+M517 2017.02 printed on PolyPropylene Banner 200µm with a HP DesignJet Z6810 resulted in the following ∆E when compared to the _M517 2017.02_ standard. The print job was submitted from the web-interface with the preset named _Flykart_.
+
+sRGB.tif
+![sRGB.tif measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_M517_2017.02-sRGB_print.png)
+
+AdobeRGB(1998).tif
+![AdobeRGB.tif measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_M517_2017.02-AdobeRGB_print.png)
+
+sRGB.tif compared to AdobeRGB(1998).tif
+![AdobeRGB.tif compared to AdobeRGB measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_AdobeRGB-sRGB_print.png)
+
 # Other resources
 
 ### Defining gamut and color
