@@ -30,11 +30,11 @@ sRGB.tif
 ![sRGB.tif measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_M517_2017.02-sRGB_print.png)
 For this print the Average ∆E was 3.0 for the six colors in gamut.
 
-AdobeRGB(1998).tif
+Test_Stripmap_AdobeRGB.tif
 ![AdobeRGB.tif measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_M517_2017.02-AdobeRGB_print.png)
 For this print the Average ∆E was 1.5 for the six colors in gamut.
 
-sRGB.tif compared to AdobeRGB(1998).tif
+Test_Stripmap_sRGB.tif compared to Test_Stripmap_AdobeRGB.tif
 ![AdobeRGB.tif compared to AdobeRGB measured result](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/dE_AdobeRGB-sRGB_print.png)
 
 
