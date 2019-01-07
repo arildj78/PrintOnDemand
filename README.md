@@ -1,6 +1,14 @@
 # Print On Demand
 A collection of checklists, tools and resources related to the creation and printing of maps.
 
+
+| Checklist | Title                                                                    |
+|-----------|--------------------------------------------------------------------------|
+| 1.3       | [Oppsett av HP DesignJet Z6810][cl1.3]                                   |
+| 1.4       | [Konfigurer ny papirtype på HP DesignJet Z6810][cl1.4]                   |
+| 2.1.2     | [Installasjon av drivere for HP Designjet Z6810][cl2.1.2]                |
+| 2.5       | [Oppretting av Print Preset for HP DesignJet Z6200 web interface][cl2.5] |
+| 3.5	      |	[Utskrift av kart fra Z6200 Web Interface][cl3.5]                        |
 # Printing
 ## From  PDF
 The HP DesignJet Z6810 with firmware PX8_04_00_06.2 does not process the ICC profile embedded in the PDF. All color management options are set during submission of the print job.
@@ -55,3 +63,8 @@ White and black are pretty similiar while green, magenta, cyan and brown are not
 
 [i1Pro2]: https://www.xrite.com/categories/calibration-profiling/i1publish-pro-2
 [x-rite]: https://www.xrite.com
+[cl1.3]:   /Checklists/PDF/1.3%20-%20Oppsett%20av%20HP%20DesignJet%20Z6810.pdf
+[cl1.4]:   /Checklists/PDF/1.4%20-%20Konfigurer%20ny%20papirtype%20på%20HP%20DesignJet%20Z6810.pdf
+[cl2.1.2]: /Checklists/PDF/2.1.2%20-%20Installasjon%20av%20drivere%20for%20HP%20Designjet%20Z6810.pdf
+[cl2.5]:   /Checklists/PDF/2.5%20-%20Oppretting%20av%20Print%20Preset%20for%20HP%20DesignJet%20Z6200%20web%20interface.pdf
+[cl3.5]:   /Checklists/PDF/3.5%20–%20Utskrift%20av%20kart%20fra%20Z6200%20Web%20Interface.pdf
