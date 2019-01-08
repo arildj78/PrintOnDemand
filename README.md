@@ -168,7 +168,17 @@ The difference between A2 and A3 due to increased horizontal speed. A2 have more
 ### Filetype vs speed
 Of the filetypes tested so far, the TIFF has the quickest turnaround from pressing print on the computer to a finished map is ready. At the latest test, 2 copies of 15 different maps (62cm x 90cm) took exactly 2 hours to print.
 
-PDFs with very much vectorgraphics take a very long time to render before printing commences.
+PDFs with large amounts of vector graphics takes a long time to render before printing commences.
+
+
+Example print times with different quality settings. The file printed was 2019_01_RNAV36_ENBO Vesterålen.tif
+
+|    | Upload |	Recv	| Process	| Preparing	      |  Print      	| Rec+Pro+Prep	| Total-upload |
+|----|--------|-------|---------|-----------------|---------------|---------------|--------------|
+| A2 |	24,9	| 3,5	  | 28,9	  |           10,2  |   1:51,4      |	0:43	        | 2:34         |
+| A3 |	25,6	| 2,7	  | 22,8	  |            8,6	|   3:16,9      |	0:34	        | 3:51         |
+| A4 |	24,7	| 33,0	| 20,3	  |            9,5	|   4:00,9      |	1:03	        | 5:04         |
+
 
 ## Recommended quality
 The recommended quality is A3 for operational maps. Some users might find other setting that better fits their needs.
