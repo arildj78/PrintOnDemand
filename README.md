@@ -49,10 +49,12 @@ However, it is more likely that you will print something and just want to trim a
 
 ### Defining gamut and color
 [![Defining gamut and color space](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/screenshotGamut.png)](https://youtu.be/jVkjaUCkMps "Defining gamut and color space")
+
 When printing maps we assume that all RGB values should be interpreted as Adobe RGB (1998). This is because during testing, the maps that were printed as if the data was Adobe RGB was slightly easier to read in low light conditions. Both *Adobe RGB* and *sRGB* are viable color spaces for printing maps. It just depends on the definition of the map symbology. This can however change in the future.
 
 ### Rendering Intent & BlackPoint compensation
 [![Rendering Intent & BlackPoint](https://github.com/arildj78/PrintOnDemand/raw/master/webresources/screenshotBlackPoint.png)](https://youtu.be/ixLrXsTvHyI "Rendering Intent & BlackPoint")
+
 For maps, there are a finite number of colors in the definition. Because of this the printer should be set up to reproduce as many as possible of these colors at their exact color value. To achieve this, the rendering intent should be set to **Relative Colorimetric** and the **Black Point Compensation should be set to disabled.** To see the effect of Black Point Compensation, try printing the file [BlackPointCompensation.tif][BPC]. For experimenting with Rendering Intent, try the file [RenderingIntent.tif][RI]. Photographs will often look better when printed with a perceptual rendering intent. This will shift all colors to recreate the general look of an image rather than hitting an exact color value.
 
 
@@ -176,6 +178,7 @@ The recommended quality is A3 for operational maps. Some users might find other 
 ## When creating maps
 ### The difference between vector and RasterVsVector
 The map zoomed out
+
 ![ResolutionCheck2400](/webresources/map.png)
 
 The same map zoomed in. You can see the pixelation on the raster, while the vector graphics stay sharp.
@@ -190,6 +193,7 @@ During resizing or rotations a method needs to be set for handling pixels that d
 ![ResolutionCheck2400](/webresources/resizeNearestNeighbour.png)
 
 In this image you see the effect of rotating the same feature back and forth. The Nearest Neighour method is used and you can see that what was a clean R, ended up with jagged edges.
+
 ![ResolutionCheck2400](/webresources/rotation.png)
 
 ## The effect of compressing images
