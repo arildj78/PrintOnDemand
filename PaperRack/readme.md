@@ -30,4 +30,4 @@ Bilde 4 - Spindel på høyre side
 
 ## Byggetegninger
 [Byggetegningen](drawing.pdf) er i skala 1:10 og skrives ut på A3 ark.
-[Malen](drilling_guide.pdf) for boring av hull til skruer og treplugger er i skala 1:2. For å få denne ut i skala 1:1 må den printes som 200% av original størrelse.
+[Malen](drilling_guide.pdf) for boring av hull til skruer og treplugger er i skala 1:2. For å få denne ut i skala 1:1 må den printes som 200% av original størrelse. Merk at de to øverste radene (fire ruller) er tilpasset 3 toms kjerne på rullene, mens resten er tilpasset 2 toms kjerner.
